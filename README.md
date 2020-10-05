@@ -80,13 +80,13 @@ int main(void)
 いろいろ警告が出るかもしれませんが、このような "Hello World" という真っ黒いウィンドウが出ればOKです。<br><br>
 ![](docs/im_window.png)
 
-## 連絡先
+# 連絡先
 なにかつまづいた場合はどこに質問すればいいんだろう
 とりあえず実質mac 担当の土井は以下で連絡がつきます
 doi.kohei.682@s.kyushu-u.ac.jp<br>
 [@trnciii](twitter.com/trnciii)
 
-moodle かslack か考えると思います。
+みなさんはどこが質問しやすいでしょうか。状況に応じてmoodle かslack の利用を考えています。
 
 # FAQ
 ??
