@@ -21,9 +21,18 @@ brew install glfw
 ```
 ---
 
-#プロジェクトの作成
-まず xcode で新しいC++プロジェクトを作成します<br>
-参考サイトをみたほうがはやいと思う
+# プロジェクトの作成
+インストールしたライブラリの動作確認のため、最も簡単なプログラムを書いてみます。
+ここから下は参考サイトをみたほうがはやいという人もいると思います。
+また面倒な人は、このブランチをダウンロードして`sample.xcodeproj`を開き、実行できるか確認するだけでもいいです。<br>
+<img src="docs/im_dl.png" width="300">
+
+
+自分でやってみたい人は、まず xcode で新しいプロジェクトを作成します<br>
+<img src="docs/im_new1.png" width="500"><br>
+↓<br>
+<img src="docs/im_new2.png" width="500">
+
 
 ## ライブラリ追加
 * Build phases -> Link Binary with Libraries から ``OpenGL.framework`` を選択
@@ -77,7 +86,7 @@ int main(void)
     return 0;
 }
 ```
-いろいろ警告が出るかもしれませんが、このような "Hello World" という真っ黒いウィンドウが出ればOKです。<br><br>
+いろいろ警告が出るかもしれませんが、しばらく待ってこのような "Hello World" という真っ黒いウィンドウが出ればOKです。<br><br>
 ![](docs/im_window.png)
 
 # 連絡先
